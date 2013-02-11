@@ -1,0 +1,15 @@
+Source: zeal
+Section: devel
+Priority: extra
+Maintainer: Jerzy Kozera <jerzy.kozera@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), qt5-default, qtbase5-dev, qt5-qmake, libqt5webkit5-dev, libxcb-keysyms1-dev, x11proto-core-dev, libxcb1-dev, qtlocation5-dev, qtdeclarative5-dev, qtsensors5-dev, libqt5opengl5-dev, libgstreamer0.10-dev, libsqlite3-dev, libgstreamer-plugins-base0.10-dev, libxslt1-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/jkozera/zeal
+#Vcs-Git: git://git.debian.org/collab-maint/zeal.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/zeal.git;a=summary
+
+Package: zeal
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5gui5, libqt5webkit5, libqt5location5, libqt5quick5, libqt5qml5, libqt5sensors5, libqt5opengl5, libgstreamer0.10-0, libsqlite3-0, libgstreamer-plugins-base0.10-0, libxslt1.1, libqt5sql5-sqlite
+Description: Zeal documentation browser
+ Zeal is a simple documentation browser inspired by Dash. It allows searching offline copies of various programming reference documentation sets.
