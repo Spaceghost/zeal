@@ -43,9 +43,11 @@ FORMS    += mainwindow.ui \
 
 QMAKE_CXXFLAGS += -std=c++11
 
-win32:DEFINES += WIN32
+win32:DEFINES += WIN32 QUAZIP_BUILD
+win32:LIBS += -lz
 
 unix:!macx: LIBS += -lxcb-keysyms
 unix:!macx: SOURCES += xcb_keysym.cpp
 
 include (widgets/widgets.pri)
+include (quazip/quazip.pri)

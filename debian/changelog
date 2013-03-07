@@ -1,3 +1,9 @@
+zeal (0.0+1snapshot201303070047+0000-1) quantal; urgency=low
+
+  * Imported Upstream version 0.0+1snapshot201303070047+0000
+
+ -- Jerzy Kozera <jerzy.kozera@gmail.com>  Thu, 07 Mar 2013 00:47:11 +0000
+
 zeal (0.0+1snapshot201302110729+0000-1) quantal; urgency=low
 
   * Initial release

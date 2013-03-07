@@ -2,10 +2,7 @@
 #define ZEALSETTINGSDIALOG_H
 
 #include <QDialog>
-
-namespace Ui {
-class ZealSettingsDialog;
-}
+#include "ui_zealsettingsdialog.h"
 
 class ZealSettingsDialog : public QDialog
 {
@@ -17,7 +14,6 @@ public:
     void setHotKey(const QKeySequence &keySequence);
     QKeySequence hotKey();
     
-private:
     Ui::ZealSettingsDialog *ui;
 };
 
